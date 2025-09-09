@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.16)
+project(mod-flying-mounts-everywhere)
+
+include(AC_MODULE)
+
+AC_ADD_SCRIPT("${CMAKE_CURRENT_LIST_DIR}/src/mod_flying_mounts_everywhere.cpp")
+AC_ADD_CONFIG_FILE("${CMAKE_CURRENT_LIST_DIR}/conf/mod_flying_mounts_everywhere.conf.dist")
