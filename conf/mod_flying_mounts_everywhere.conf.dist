@@ -1,0 +1,24 @@
+#
+# mod_flying_mounts_everywhere configuration
+#
+
+[mod_flying_mounts_everywhere]
+# Enable (1) or disable (0) the module
+Enabled = 1
+
+# Prevent flying in battlegrounds/arenas (1 = block, 0 = allow)
+BlockInBattlegrounds = 1
+
+# Prevent flying in instances/dungeons/raids (1 = block, 0 = allow)
+BlockInInstances = 1
+
+# Minimum level required to fly
+MinLevel = 20
+
+# Debug logging (1 = on, 0 = off)
+Debug = 0
+
+# Whitelist of allowed flying mount spell IDs
+# Example: 32244 (Blue Dragonhawk), 40192 (Ashes of Al'ar)
+# Leave empty to allow ALL flying mounts
+AllowedMountSpells = 32244,40192
