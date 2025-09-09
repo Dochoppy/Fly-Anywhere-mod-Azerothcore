@@ -1,0 +1,7 @@
+[mod_flying_mounts_everywhere]
+Enabled = 1
+BlockInBattlegrounds = 1
+BlockInInstances = 1
+MinLevel = 20
+Debug = 0
+AllowedMountSpells = 32244,40192
