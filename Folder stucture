@@ -1,0 +1,7 @@
+mod-flying-mounts-everywhere/
+├── CMakeLists.txt
+├── README.md
+├── conf/
+│   └── mod_flying_mounts_everywhere.conf.dist
+└── src/
+    └── mod_flying_mounts_everywhere.cpp
